@@ -5,7 +5,7 @@ import { TheRevelation } from "@/components/TheRevelation";
 import { TheScroll } from "@/components/TheScroll";
 import { useVerseryStore } from "@/lib/store";
 import { motion } from "framer-motion";
-import { ArrowLeft, BookOpen, Lightbulb } from "lucide-react";
+import { ArrowLeft, Lightbulb } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import parablesData from "../data/parables.json";
@@ -139,12 +139,6 @@ export default function ParablesPage() {
                 <p className="text-base md:text-xl font-serif leading-relaxed text-nova-text italic px-2">
                     "{currentParable.description}"
                 </p>
-                <div className="mt-8 flex items-center justify-center gap-4 relative z-10">
-                    <div className="px-4 py-1.5 bg-indigo-50 rounded-full flex items-center gap-2 border border-indigo-100/50">
-                        <BookOpen className="w-3 h-3 text-indigo-600" />
-                        <span className="text-[10px] font-black text-indigo-900 uppercase tracking-widest">{currentParable.reference}</span>
-                    </div>
-                </div>
             </motion.section>
 
             <div className="flex-1">

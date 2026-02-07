@@ -1,5 +1,7 @@
 "use client";
 
+import { LandingPage } from "@/components/LandingPage";
+import { OnboardingFlow } from "@/components/OnboardingFlow";
 import { useVerseryStore } from "@/lib/store";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
@@ -18,8 +20,19 @@ import {
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+// Helper component to manage Landing -> Onboarding transition locally
+const OnboardingScreen = () => {
+  const [hasStarted, setHasStarted] = useState(false);
+
+  if (!hasStarted) {
+    return <LandingPage onStart={() => setHasStarted(true)} />;
+  }
+
+  return <OnboardingFlow onComplete={() => { }} />; // The flow updates the store directly
+};
+
 export default function Dashboard() {
-  const { graceCount, dailyStreak, checkStreak } = useVerseryStore();
+  const { graceCount, dailyStreak, checkStreak, onboardingCompleted } = useVerseryStore();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -82,6 +95,11 @@ export default function Dashboard() {
   ];
 
   if (!mounted) return null;
+
+  // New Onboarding Logic
+  if (!useVerseryStore.getState().onboardingCompleted) {
+    return <OnboardingScreen />;
+  }
 
   return (
     <div className="py-4 md:py-6 space-y-8 md:space-y-12 px-2 md:px-0 pt-20 md:pt-4">

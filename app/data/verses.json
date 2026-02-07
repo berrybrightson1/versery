@@ -18,19 +18,9 @@
         "verse": 1,
         "speaker": "David",
         "missing_words": [
+            "Lord",
             "shepherd",
             "want"
-        ]
-    },
-    {
-        "text": "I can do all things through Christ which strengtheneth me.",
-        "book": "Philippians",
-        "chapter": 4,
-        "verse": 13,
-        "speaker": "Paul",
-        "missing_words": [
-            "things",
-            "strengtheneth"
         ]
     },
     {
@@ -46,15 +36,62 @@
         ]
     },
     {
+        "text": "I can do all things through Christ which strengtheneth me.",
+        "book": "Philippians",
+        "chapter": 4,
+        "verse": 13,
+        "speaker": "Paul",
+        "missing_words": [
+            "things",
+            "Christ",
+            "strengtheneth"
+        ]
+    },
+    {
         "text": "Trust in the Lord with all thine heart; and lean not unto thine own understanding.",
         "book": "Proverbs",
         "chapter": 3,
         "verse": 5,
         "speaker": "Solomon",
         "missing_words": [
+            "Trust",
             "heart",
-            "lean",
             "understanding"
+        ]
+    },
+    {
+        "text": "Jesus wept.",
+        "book": "John",
+        "chapter": 11,
+        "verse": 35,
+        "speaker": "John",
+        "missing_words": [
+            "Jesus",
+            "wept"
+        ]
+    },
+    {
+        "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+        "book": "Romans",
+        "chapter": 8,
+        "verse": 28,
+        "speaker": "Paul",
+        "missing_words": [
+            "work",
+            "good",
+            "purpose"
+        ]
+    },
+    {
+        "text": "For I know the thoughts that I think toward you, saith the Lord, thoughts of peace, and not of evil, to give you an expected end.",
+        "book": "Jeremiah",
+        "chapter": 29,
+        "verse": 11,
+        "speaker": "Jeremiah",
+        "missing_words": [
+            "thoughts",
+            "peace",
+            "expected"
         ]
     },
     {
@@ -65,44 +102,32 @@
         "speaker": "Isaiah",
         "missing_words": [
             "wait",
-            "strength",
+            "renew",
             "eagles"
         ]
     },
     {
-        "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
-        "book": "Romans",
-        "chapter": 8,
-        "verse": 28,
-        "speaker": "Paul",
+        "text": "Thy word is a lamp unto my feet, and a light unto my path.",
+        "book": "Psalms",
+        "chapter": 119,
+        "verse": 105,
+        "speaker": "David",
         "missing_words": [
-            "together",
-            "love",
-            "purpose"
+            "word",
+            "lamp",
+            "light"
         ]
     },
     {
-        "text": "Be strong and of a good courage, fear not, nor be afraid of them: for the Lord thy God, he it is that doth go with thee.",
-        "book": "Deuteronomy",
-        "chapter": 31,
-        "verse": 6,
-        "speaker": "Moses",
+        "text": "He that dwelleth in the secret place of the Most High shall abide under the shadow of the Almighty.",
+        "book": "Psalms",
+        "chapter": 91,
+        "verse": 1,
+        "speaker": "David",
         "missing_words": [
-            "courage",
-            "afraid",
-            "thee"
-        ]
-    },
-    {
-        "text": "The Lord is slow to anger, and of great mercy, forgiving iniquity and transgression.",
-        "book": "Numbers",
-        "chapter": 14,
-        "verse": 18,
-        "speaker": "Moses",
-        "missing_words": [
-            "anger",
-            "mercy",
-            "forgiving"
+            "secret",
+            "shadow",
+            "Almighty"
         ]
     },
     {
@@ -118,30 +143,6 @@
         ]
     },
     {
-        "text": "Greater love hath no man than this, that a man lay down his life for his friends.",
-        "book": "John",
-        "chapter": 15,
-        "verse": 13,
-        "speaker": "Jesus",
-        "missing_words": [
-            "Greater",
-            "life",
-            "friends"
-        ]
-    },
-    {
-        "text": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you.",
-        "book": "Matthew",
-        "chapter": 7,
-        "verse": 7,
-        "speaker": "Jesus",
-        "missing_words": [
-            "given",
-            "find",
-            "opened"
-        ]
-    },
-    {
         "text": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.",
         "book": "Romans",
         "chapter": 6,
@@ -149,55 +150,152 @@
         "speaker": "Paul",
         "missing_words": [
             "wages",
-            "gift",
-            "eternal"
+            "death",
+            "gift"
         ]
     },
     {
-        "text": "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ.",
+        "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind.",
         "book": "Romans",
-        "chapter": 5,
-        "verse": 1,
+        "chapter": 12,
+        "verse": 2,
         "speaker": "Paul",
         "missing_words": [
-            "justified",
-            "faith",
-            "peace"
+            "conformed",
+            "transformed",
+            "renewing"
         ]
     },
     {
-        "text": "Even though I walk through the valley of the shadow of death, I will fear no evil.",
-        "book": "Psalms",
-        "chapter": 23,
-        "verse": 4,
-        "speaker": "David",
+        "text": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.",
+        "book": "Matthew",
+        "chapter": 6,
+        "verse": 33,
+        "speaker": "Jesus",
         "missing_words": [
-            "valley",
-            "shadow",
-            "evil"
+            "seek",
+            "kingdom",
+            "righteousness"
         ]
     },
     {
-        "text": "Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.",
-        "book": "Jeremiah",
-        "chapter": 33,
-        "verse": 3,
+        "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.",
+        "book": "1 John",
+        "chapter": 1,
+        "verse": 9,
+        "speaker": "John",
+        "missing_words": [
+            "confess",
+            "forgive",
+            "cleanse"
+        ]
+    },
+    {
+        "text": "The fear of the Lord is the beginning of knowledge: but fools despise wisdom and instruction.",
+        "book": "Proverbs",
+        "chapter": 1,
+        "verse": 7,
+        "speaker": "Solomon",
+        "missing_words": [
+            "fear",
+            "knowledge",
+            "wisdom"
+        ]
+    },
+    {
+        "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
+        "book": "Matthew",
+        "chapter": 11,
+        "verse": 28,
+        "speaker": "Jesus",
+        "missing_words": [
+            "Come",
+            "labour",
+            "rest"
+        ]
+    },
+    {
+        "text": "Be strong and of a good courage; be not afraid, neither be thou dismayed: for the Lord thy God is with thee whithersoever thou goest.",
+        "book": "Joshua",
+        "chapter": 1,
+        "verse": 9,
         "speaker": "God",
         "missing_words": [
-            "answer",
-            "mighty",
-            "knowest"
+            "strong",
+            "courage",
+            "dismayed"
         ]
     },
     {
-        "text": "The joy of the Lord is your strength.",
-        "book": "Nehemiah",
-        "chapter": 8,
-        "verse": 10,
-        "speaker": "Nehemiah",
+        "text": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
+        "book": "John",
+        "chapter": 1,
+        "verse": 14,
+        "speaker": "John",
         "missing_words": [
-            "joy",
-            "strength"
+            "Word",
+            "flesh",
+            "glory"
+        ]
+    },
+    {
+        "text": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost.",
+        "book": "Matthew",
+        "chapter": 28,
+        "verse": 19,
+        "speaker": "Jesus",
+        "missing_words": [
+            "teach",
+            "baptizing",
+            "Holy"
+        ]
+    },
+    {
+        "text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God.",
+        "book": "Ephesians",
+        "chapter": 2,
+        "verse": 8,
+        "speaker": "Paul",
+        "missing_words": [
+            "grace",
+            "faith",
+            "gift"
+        ]
+    },
+    {
+        "text": "Rejoice in the Lord always: and again I say, Rejoice.",
+        "book": "Philippians",
+        "chapter": 4,
+        "verse": 4,
+        "speaker": "Paul",
+        "missing_words": [
+            "Rejoice",
+            "always",
+            "say"
+        ]
+    },
+    {
+        "text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up.",
+        "book": "1 Corinthians",
+        "chapter": 13,
+        "verse": 4,
+        "speaker": "Paul",
+        "missing_words": [
+            "Charity",
+            "kind",
+            "envieth"
+        ]
+    },
+    {
+        "text": "Fear not; for I am with thee: be not dismayed; for I am thy God.",
+        "book": "Isaiah",
+        "chapter": 41,
+        "verse": 10,
+        "speaker": "Isaiah",
+        "missing_words": [
+            "Fear",
+            "dismayed",
+            "God"
         ]
     },
     {
@@ -205,35 +303,419 @@
         "book": "Psalms",
         "chapter": 46,
         "verse": 10,
-        "speaker": "God",
+        "speaker": "Sons of Korah",
         "missing_words": [
             "still",
-            "exalted",
-            "earth"
+            "know",
+            "exalted"
         ]
     },
     {
-        "text": "Cast thy burden upon the Lord, and he shall sustain thee: he shall never suffer the righteous to be moved.",
+        "text": "The Lord is my light and my salvation; whom shall I fear? the Lord is the strength of my life; of whom shall I be afraid?",
         "book": "Psalms",
-        "chapter": 55,
+        "chapter": 27,
+        "verse": 1,
+        "speaker": "David",
+        "missing_words": [
+            "light",
+            "salvation",
+            "strength"
+        ]
+    },
+    {
+        "text": "Create in me a clean heart, O God; and renew a right spirit within me.",
+        "book": "Psalms",
+        "chapter": 51,
+        "verse": 10,
+        "speaker": "David",
+        "missing_words": [
+            "Create",
+            "clean",
+            "renew"
+        ]
+    },
+    {
+        "text": "Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.",
+        "book": "Proverbs",
+        "chapter": 27,
+        "verse": 17,
+        "speaker": "Solomon",
+        "missing_words": [
+            "Iron",
+            "sharpeneth",
+            "countenance"
+        ]
+    },
+    {
+        "text": "A soft answer turneth away wrath: but grievous words stir up anger.",
+        "book": "Proverbs",
+        "chapter": 15,
+        "verse": 1,
+        "speaker": "Solomon",
+        "missing_words": [
+            "soft",
+            "wrath",
+            "anger"
+        ]
+    },
+    {
+        "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith.",
+        "book": "Galatians",
+        "chapter": 5,
         "verse": 22,
-        "speaker": "David",
+        "speaker": "Paul",
         "missing_words": [
-            "burden",
-            "sustain",
-            "moved"
+            "fruit",
+            "Spirit",
+            "love"
         ]
     },
     {
-        "text": "Thy word is a lamp unto my feet, and a light unto my path.",
+        "text": "Finally, my brethren, be strong in the Lord, and in the power of his might.",
+        "book": "Ephesians",
+        "chapter": 6,
+        "verse": 10,
+        "speaker": "Paul",
+        "missing_words": [
+            "Finally",
+            "strong",
+            "power"
+        ]
+    },
+    {
+        "text": "And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+        "book": "Philippians",
+        "chapter": 4,
+        "verse": 7,
+        "speaker": "Paul",
+        "missing_words": [
+            "peace",
+            "understanding",
+            "hearts"
+        ]
+    },
+    {
+        "text": "For all have sinned, and come short of the glory of God.",
+        "book": "Romans",
+        "chapter": 3,
+        "verse": 23,
+        "speaker": "Paul",
+        "missing_words": [
+            "all",
+            "sinned",
+            "glory"
+        ]
+    },
+    {
+        "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+        "book": "John",
+        "chapter": 1,
+        "verse": 1,
+        "speaker": "John",
+        "missing_words": [
+            "beginning",
+            "Word",
+            "God"
+        ]
+    },
+    {
+        "text": "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit.",
+        "book": "John",
+        "chapter": 15,
+        "verse": 5,
+        "speaker": "Jesus",
+        "missing_words": [
+            "vine",
+            "branches",
+            "fruit"
+        ]
+    },
+    {
+        "text": "Greater love hath no man than this, that a man lay down his life for his friends.",
+        "book": "John",
+        "chapter": 15,
+        "verse": 13,
+        "speaker": "Jesus",
+        "missing_words": [
+            "Greater",
+            "love",
+            "life"
+        ]
+    },
+    {
+        "text": "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him.",
+        "book": "Isaiah",
+        "chapter": 53,
+        "verse": 5,
+        "speaker": "Isaiah",
+        "missing_words": [
+            "wounded",
+            "bruised",
+            "peace"
+        ]
+    },
+    {
+        "text": "The grass withereth, the flower fadeth: but the word of our God shall stand for ever.",
+        "book": "Isaiah",
+        "chapter": 40,
+        "verse": 8,
+        "speaker": "Isaiah",
+        "missing_words": [
+            "grass",
+            "flower",
+            "stand"
+        ]
+    },
+    {
+        "text": "If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven.",
+        "book": "2 Chronicles",
+        "chapter": 7,
+        "verse": 14,
+        "speaker": "God",
+        "missing_words": [
+            "humble",
+            "pray",
+            "hear"
+        ]
+    },
+    {
+        "text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him.",
+        "book": "Revelation",
+        "chapter": 3,
+        "verse": 20,
+        "speaker": "Jesus",
+        "missing_words": [
+            "stand",
+            "knock",
+            "voice"
+        ]
+    },
+    {
+        "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword.",
+        "book": "Hebrews",
+        "chapter": 4,
+        "verse": 12,
+        "speaker": "Paul",
+        "missing_words": [
+            "quick",
+            "powerful",
+            "sword"
+        ]
+    },
+    {
+        "text": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+        "book": "Hebrews",
+        "chapter": 11,
+        "verse": 1,
+        "speaker": "Paul",
+        "missing_words": [
+            "faith",
+            "substance",
+            "evidence"
+        ]
+    },
+    {
+        "text": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights.",
+        "book": "James",
+        "chapter": 1,
+        "verse": 17,
+        "speaker": "James",
+        "missing_words": [
+            "good",
+            "perfect",
+            "above"
+        ]
+    },
+    {
+        "text": "But be ye doers of the word, and not hearers only, deceiving your own selves.",
+        "book": "James",
+        "chapter": 1,
+        "verse": 22,
+        "speaker": "James",
+        "missing_words": [
+            "doers",
+            "hearers",
+            "deceiving"
+        ]
+    },
+    {
+        "text": "Cast all your care upon him; for he careth for you.",
+        "book": "1 Peter",
+        "chapter": 5,
+        "verse": 7,
+        "speaker": "Peter",
+        "missing_words": [
+            "Cast",
+            "care",
+            "careth"
+        ]
+    },
+    {
+        "text": "But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you.",
+        "book": "1 Peter",
+        "chapter": 3,
+        "verse": 15,
+        "speaker": "Peter",
+        "missing_words": [
+            "sanctify",
+            "ready",
+            "answer"
+        ]
+    },
+    {
+        "text": "The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward.",
+        "book": "2 Peter",
+        "chapter": 3,
+        "verse": 9,
+        "speaker": "Peter",
+        "missing_words": [
+            "slack",
+            "promise",
+            "longsuffering"
+        ]
+    },
+    {
+        "text": "Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God.",
+        "book": "1 John",
+        "chapter": 4,
+        "verse": 7,
+        "speaker": "John",
+        "missing_words": [
+            "Beloved",
+            "one",
+            "knoweth"
+        ]
+    },
+    {
+        "text": "For this is the love of God, that we keep his commandments: and his commandments are not grievous.",
+        "book": "1 John",
+        "chapter": 5,
+        "verse": 3,
+        "speaker": "John",
+        "missing_words": [
+            "love",
+            "keep",
+            "grievous"
+        ]
+    },
+    {
+        "text": "And we know that the Son of God is come, and hath given us an understanding, that we may know him that is true.",
+        "book": "1 John",
+        "chapter": 5,
+        "verse": 20,
+        "speaker": "John",
+        "missing_words": [
+            "Son",
+            "understanding",
+            "true"
+        ]
+    },
+    {
+        "text": "Contend for the faith which was once delivered unto the saints.",
+        "book": "Jude",
+        "chapter": 1,
+        "verse": 3,
+        "speaker": "Jude",
+        "missing_words": [
+            "Contend",
+            "faith",
+            "delivered"
+        ]
+    },
+    {
+        "text": "I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty.",
+        "book": "Revelation",
+        "chapter": 1,
+        "verse": 8,
+        "speaker": "Jesus",
+        "missing_words": [
+            "Alpha",
+            "Omega",
+            "Almighty"
+        ]
+    },
+    {
+        "text": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying.",
+        "book": "Revelation",
+        "chapter": 21,
+        "verse": 4,
+        "speaker": "John",
+        "missing_words": [
+            "wipe",
+            "tears",
+            "death"
+        ]
+    },
+    {
+        "text": "He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus.",
+        "book": "Revelation",
+        "chapter": 22,
+        "verse": 20,
+        "speaker": "John",
+        "missing_words": [
+            "testifieth",
+            "quickly",
+            "Jesus"
+        ]
+    },
+    {
+        "text": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners.",
         "book": "Psalms",
-        "chapter": 119,
-        "verse": 105,
+        "chapter": 1,
+        "verse": 1,
         "speaker": "David",
         "missing_words": [
-            "lamp",
-            "feet",
-            "light"
+            "Blessed",
+            "walketh",
+            "sinners"
+        ]
+    },
+    {
+        "text": "I will bless the Lord at all times: his praise shall continually be in my mouth.",
+        "book": "Psalms",
+        "chapter": 34,
+        "verse": 1,
+        "speaker": "David",
+        "missing_words": [
+            "bless",
+            "times",
+            "mouth"
+        ]
+    },
+    {
+        "text": "O taste and see that the Lord is good: blessed is the man that trusteth in him.",
+        "book": "Psalms",
+        "chapter": 34,
+        "verse": 8,
+        "speaker": "David",
+        "missing_words": [
+            "taste",
+            "good",
+            "trusteth"
+        ]
+    },
+    {
+        "text": "God is our refuge and strength, a very present help in trouble.",
+        "book": "Psalms",
+        "chapter": 46,
+        "verse": 1,
+        "speaker": "Sons of Korah",
+        "missing_words": [
+            "refuge",
+            "strength",
+            "trouble"
+        ]
+    },
+    {
+        "text": "Make a joyful noise unto the Lord, all ye lands.",
+        "book": "Psalms",
+        "chapter": 100,
+        "verse": 1,
+        "speaker": "David",
+        "missing_words": [
+            "Make",
+            "joyful",
+            "lands"
         ]
     }
 ]

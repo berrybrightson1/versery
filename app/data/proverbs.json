@@ -1,53 +1,33 @@
 [
     {
-        "first_half": "A soft answer turneth away wrath:",
-        "second_half": "but grievous words stir up anger.",
-        "reference": "Proverbs 15:1"
-    },
-    {
         "first_half": "The fear of the Lord is the beginning of knowledge:",
         "second_half": "but fools despise wisdom and instruction.",
         "reference": "Proverbs 1:7"
     },
     {
-        "first_half": "Commit thy works unto the Lord,",
-        "second_half": "and thy thoughts shall be established.",
-        "reference": "Proverbs 16:3"
+        "first_half": "Trust in the Lord with all thine heart;",
+        "second_half": "and lean not unto thine own understanding.",
+        "reference": "Proverbs 3:5"
     },
     {
-        "first_half": "Pride goeth before destruction,",
-        "second_half": "and an haughty spirit before a fall.",
-        "reference": "Proverbs 16:18"
+        "first_half": "In all thy ways acknowledge him,",
+        "second_half": "and he shall direct thy paths.",
+        "reference": "Proverbs 3:6"
     },
     {
-        "first_half": "Iron sharpeneth iron;",
-        "second_half": "so a man sharpeneth the countenance of his friend.",
-        "reference": "Proverbs 27:17"
+        "first_half": "Be not wise in thine own eyes:",
+        "second_half": "fear the Lord, and depart from evil.",
+        "reference": "Proverbs 3:7"
     },
     {
-        "first_half": "A merry heart doeth good like a medicine:",
-        "second_half": "but a broken spirit drieth the bones.",
-        "reference": "Proverbs 17:22"
+        "first_half": "Happy is the man that findeth wisdom,",
+        "second_half": "and the man that getteth understanding.",
+        "reference": "Proverbs 3:13"
     },
     {
-        "first_half": "The name of the Lord is a strong tower:",
-        "second_half": "the righteous runneth into it, and is safe.",
-        "reference": "Proverbs 18:10"
-    },
-    {
-        "first_half": "Train up a child in the way he should go:",
-        "second_half": "and when he is old, he will not depart from it.",
-        "reference": "Proverbs 22:6"
-    },
-    {
-        "first_half": "A man's heart deviseth his way:",
-        "second_half": "but the Lord directeth his steps.",
-        "reference": "Proverbs 16:9"
-    },
-    {
-        "first_half": "He that is slow to anger is better than the mighty;",
-        "second_half": "and he that ruleth his spirit than he that taketh a city.",
-        "reference": "Proverbs 16:32"
+        "first_half": "For the gaining of wisdom is better than silver,",
+        "second_half": "and the profit thereof than fine gold.",
+        "reference": "Proverbs 3:14"
     },
     {
         "first_half": "Wisdom is the principal thing; therefore get wisdom:",
@@ -55,29 +35,149 @@
         "reference": "Proverbs 4:7"
     },
     {
-        "first_half": "The proverbs of Solomon: A wise son maketh a glad father:",
+        "first_half": "Keep thy heart with all diligence;",
+        "second_half": "for out of it are the issues of life.",
+        "reference": "Proverbs 4:23"
+    },
+    {
+        "first_half": "Go to the ant, thou sluggard;",
+        "second_half": "consider her ways, and be wise.",
+        "reference": "Proverbs 6:6"
+    },
+    {
+        "first_half": "The fear of the Lord is to hate evil:",
+        "second_half": "pride, and arrogancy, and the evil way, and the froward mouth, do I hate.",
+        "reference": "Proverbs 8:13"
+    },
+    {
+        "first_half": "Give instruction to a wise man, and he will be yet wiser:",
+        "second_half": "teach a just man, and he will increase in learning.",
+        "reference": "Proverbs 9:9"
+    },
+    {
+        "first_half": "The fear of the Lord is the beginning of wisdom:",
+        "second_half": "and the knowledge of the holy is understanding.",
+        "reference": "Proverbs 9:10"
+    },
+    {
+        "first_half": "A wise son maketh a glad father:",
         "second_half": "but a foolish son is the heaviness of his mother.",
         "reference": "Proverbs 10:1"
     },
     {
-        "first_half": "In all labor there is profit:",
-        "second_half": "but the talk of the lips tendeth only to penury.",
-        "reference": "Proverbs 14:23"
+        "first_half": "Treasures of wickedness profit nothing:",
+        "second_half": "but righteousness delivereth from death.",
+        "reference": "Proverbs 10:2"
     },
     {
-        "first_half": "The heart of the prudent getteth knowledge;",
-        "second_half": "and the ear of the wise seeketh knowledge.",
-        "reference": "Proverbs 18:15"
+        "first_half": "He that gathereth in summer is a wise son:",
+        "second_half": "but he that sleepeth in harvest is a son that causeth shame.",
+        "reference": "Proverbs 10:5"
     },
     {
-        "first_half": "As in water face answereth to face,",
-        "second_half": "so the heart of man to man.",
-        "reference": "Proverbs 27:19"
+        "first_half": "The memory of the just is blessed:",
+        "second_half": "but the name of the wicked shall rot.",
+        "reference": "Proverbs 10:7"
     },
     {
-        "first_half": "Whoso findeth a wife findeth a good thing,",
-        "second_half": "and obtaineth favor of the Lord.",
-        "reference": "Proverbs 18:22"
+        "first_half": "He that walketh uprightly walketh surely:",
+        "second_half": "but he that perverteth his ways shall be known.",
+        "reference": "Proverbs 10:9"
+    },
+    {
+        "first_half": "Hatred stirreth up strifes:",
+        "second_half": "but love covereth all sins.",
+        "reference": "Proverbs 10:12"
+    },
+    {
+        "first_half": "In the multitude of words there wanteth not sin:",
+        "second_half": "but he that refraineth his lips is wise.",
+        "reference": "Proverbs 10:19"
+    },
+    {
+        "first_half": "The blessing of the Lord, it maketh rich,",
+        "second_half": "and he addeth no sorrow with it.",
+        "reference": "Proverbs 10:22"
+    },
+    {
+        "first_half": "Where no counsel is, the people fall:",
+        "second_half": "but in the multitude of counsellors there is safety.",
+        "reference": "Proverbs 11:14"
+    },
+    {
+        "first_half": "The liberal soul shall be made fat:",
+        "second_half": "and he that watereth shall be watered also himself.",
+        "reference": "Proverbs 11:25"
+    },
+    {
+        "first_half": "He that troubleth his own house shall inherit the wind:",
+        "second_half": "and the fool shall be servant to the wise of heart.",
+        "reference": "Proverbs 11:29"
+    },
+    {
+        "first_half": "A righteous man regardeth the life of his beast:",
+        "second_half": "but the tender mercies of the wicked are cruel.",
+        "reference": "Proverbs 12:10"
+    },
+    {
+        "first_half": "He that is slow to wrath is of great understanding:",
+        "second_half": "but he that is hasty of spirit exalteth folly.",
+        "reference": "Proverbs 14:29"
+    },
+    {
+        "first_half": "A soft answer turneth away wrath:",
+        "second_half": "but grievous words stir up anger.",
+        "reference": "Proverbs 15:1"
+    },
+    {
+        "first_half": "The eyes of the Lord are in every place,",
+        "second_half": "beholding the evil and the good.",
+        "reference": "Proverbs 15:3"
+    },
+    {
+        "first_half": "A wholesome tongue is a tree of life:",
+        "second_half": "but perverseness therein is a breach in the spirit.",
+        "reference": "Proverbs 15:4"
+    },
+    {
+        "first_half": "Better is little with the fear of the Lord",
+        "second_half": "than great treasure and trouble therewith.",
+        "reference": "Proverbs 15:16"
+    },
+    {
+        "first_half": "A man hath joy by the answer of his mouth:",
+        "second_half": "and a word spoken in due season, how good is it!",
+        "reference": "Proverbs 15:23"
+    },
+    {
+        "first_half": "Commit thy works unto the Lord,",
+        "second_half": "and thy thoughts shall be established.",
+        "reference": "Proverbs 16:3"
+    },
+    {
+        "first_half": "When a man's ways please the Lord,",
+        "second_half": "he maketh even his enemies to be at peace with him.",
+        "reference": "Proverbs 16:7"
+    },
+    {
+        "first_half": "A man's heart deviseth his way:",
+        "second_half": "but the Lord directeth his steps.",
+        "reference": "Proverbs 16:9"
+    },
+    {
+        "first_half": "Pride goeth before destruction,",
+        "second_half": "and an haughty spirit before a fall.",
+        "reference": "Proverbs 16:18"
+    },
+    {
+        "first_half": "Pleasant words are as an honeycomb,",
+        "second_half": "sweet to the soul, and health to the bones.",
+        "reference": "Proverbs 16:24"
+    },
+    {
+        "first_half": "He that is slow to anger is better than the mighty;",
+        "second_half": "and he that ruleth his spirit than he that taketh a city.",
+        "reference": "Proverbs 16:32"
     },
     {
         "first_half": "A friend loveth at all times,",
@@ -85,18 +185,118 @@
         "reference": "Proverbs 17:17"
     },
     {
-        "first_half": "The path of the just is as the shining light,",
-        "second_half": "that shineth more and more unto the perfect day.",
-        "reference": "Proverbs 4:18"
+        "first_half": "A merry heart doeth good like a medicine:",
+        "second_half": "but a broken spirit drieth the bones.",
+        "reference": "Proverbs 17:22"
     },
     {
-        "first_half": "He that walketh with wise men shall be wise:",
-        "second_half": "but a companion of fools shall be destroyed.",
-        "reference": "Proverbs 13:20"
+        "first_half": "Even a fool, when he holdeth his peace, is counted wise:",
+        "second_half": "and he that shutteth his lips is esteemed a man of understanding.",
+        "reference": "Proverbs 17:28"
     },
     {
-        "first_half": "By humility and the fear of the Lord",
-        "second_half": "are riches, and honor, and life.",
-        "reference": "Proverbs 22:4"
+        "first_half": "The name of the Lord is a strong tower:",
+        "second_half": "the righteous runneth into it, and is safe.",
+        "reference": "Proverbs 18:10"
+    },
+    {
+        "first_half": "A man's gift maketh room for him,",
+        "second_half": "and bringeth him before great men.",
+        "reference": "Proverbs 18:16"
+    },
+    {
+        "first_half": "Death and life are in the power of the tongue:",
+        "second_half": "and they that love it shall eat the fruit thereof.",
+        "reference": "Proverbs 18:21"
+    },
+    {
+        "first_half": "Whoso findeth a wife findeth a good thing,",
+        "second_half": "and obtaineth favor of the Lord.",
+        "reference": "Proverbs 18:22"
+    },
+    {
+        "first_half": "Hear counsel, and receive instruction,",
+        "second_half": "that thou mayest be wise in thy latter end.",
+        "reference": "Proverbs 19:20"
+    },
+    {
+        "first_half": "There are many devices in a man's heart;",
+        "second_half": "nevertheless the counsel of the Lord, that shall stand.",
+        "reference": "Proverbs 19:21"
+    },
+    {
+        "first_half": "Wine is a mocker, strong drink is raging:",
+        "second_half": "and whosoever is deceived thereby is not wise.",
+        "reference": "Proverbs 20:1"
+    },
+    {
+        "first_half": "The hearing ear, and the seeing eye,",
+        "second_half": "the Lord hath made even both of them.",
+        "reference": "Proverbs 20:12"
+    },
+    {
+        "first_half": "The king's heart is in the hand of the Lord, as the rivers of water:",
+        "second_half": "he turneth it whithersoever he will.",
+        "reference": "Proverbs 21:1"
+    },
+    {
+        "first_half": "A good name is rather to be chosen than great riches,",
+        "second_half": "and loving favor rather than silver and gold.",
+        "reference": "Proverbs 22:1"
+    },
+    {
+        "first_half": "Train up a child in the way he should go:",
+        "second_half": "and when he is old, he will not depart from it.",
+        "reference": "Proverbs 22:6"
+    },
+    {
+        "first_half": "The borrower is servant to the lender.",
+        "second_half": "Proverbs 22:7",
+        "reference": "Proverbs 22:7"
+    },
+    {
+        "first_half": "Remove not the ancient landmark,",
+        "second_half": "which thy fathers have set.",
+        "reference": "Proverbs 22:28"
+    },
+    {
+        "first_half": "As he thinketh in his heart, so is he:",
+        "second_half": "Eat and drink, saith he to thee; but his heart is not with thee.",
+        "reference": "Proverbs 23:7"
+    },
+    {
+        "first_half": "If thine enemy be hungry, give him bread to eat;",
+        "second_half": "and if he be thirsty, give him water to drink.",
+        "reference": "Proverbs 25:21"
+    },
+    {
+        "first_half": "Answer not a fool according to his folly,",
+        "second_half": "lest thou also be like unto him.",
+        "reference": "Proverbs 26:4"
+    },
+    {
+        "first_half": "As a dog returneth to his vomit,",
+        "second_half": "so a fool returneth to his folly.",
+        "reference": "Proverbs 26:11"
+    },
+    {
+        "first_half": "Boast not thyself of to morrow;",
+        "second_half": "for thou knowest not what a day may bring forth.",
+        "reference": "Proverbs 27:1"
+    },
+    {
+        "first_half": "Iron sharpeneth iron;",
+        "second_half": "so a man sharpeneth the countenance of his friend.",
+        "reference": "Proverbs 27:17"
+    },
+    {
+        "first_half": "The wicked flee when no man pursueth:",
+        "second_half": "but the righteous are bold as a lion.",
+        "reference": "Proverbs 28:1"
+    },
+    {
+        "first_half": "He that covereth his sins shall not prosper:",
+        "second_half": "but whoso confesseth and forsaketh them shall have mercy.",
+        "reference": "Proverbs 28:13"
     }
 ]

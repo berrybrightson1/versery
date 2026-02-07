@@ -19,12 +19,22 @@ interface VerseryState {
     selectedTrackId: string;
     audioTracks: { id: string, name: string, src: string }[];
 
+    // Onboarding & Profile
+    onboardingCompleted: boolean;
+    userProfile: {
+        name: string;
+        church: string;
+        title: string; // e.g. Seeker, Novice, Disciple
+    };
+
     // Actions
     addGrace: (amount: number) => void;
     completeMode: (mode: 'locator' | 'codex' | 'livingWord' | 'wisdom' | 'parables') => void;
     checkStreak: () => void;
     resetProgress: () => void;
     updatePilgrimName: (name: string) => void;
+    updateUserProfile: (profile: Partial<VerseryState['userProfile']>) => void;
+    completeOnboarding: () => void;
     getPilgrimTitle: () => string;
     toggleAudio: () => void;
     setAudioVolume: (volume: number) => void;
@@ -58,7 +68,22 @@ export const useVerseryStore = create<VerseryState>()(
                 { id: 'zen', name: 'Zen', src: '/sounds/zen.mp3' },
             ],
 
+            onboardingCompleted: false,
+            userProfile: {
+                name: "Faithful Pilgrim",
+                church: "",
+                title: "Seeker"
+            },
+
             addGrace: (amount) => set((state) => ({ graceCount: state.graceCount + amount })),
+
+            updateUserProfile: (profile) => set((state) => ({
+                userProfile: { ...state.userProfile, ...profile },
+                // Sync legacy name if updated
+                pilgrimName: profile.name || state.pilgrimName
+            })),
+
+            completeOnboarding: () => set({ onboardingCompleted: true }),
 
             completeMode: (mode) => {
                 const today = new Date().toISOString().split('T')[0];

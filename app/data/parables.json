@@ -1,98 +1,302 @@
 [
     {
         "parable": "The Sower",
-        "description": "A sower went out to sow, and as he sowed, some seed fell by the wayside, some on stony places, some among thorns, and others on good ground.",
-        "revelation": "The Word of God being received differently according to the heart's condition.",
-        "reference": "Matthew 13:3-9"
+        "description": "A sower went out to sow, and seed fell on different types of ground.",
+        "revelation": "The Word of God is received differently by different hearts."
     },
     {
-        "parable": "The Prodigal Son",
-        "description": "A younger son wastes his inheritance in a far country, but returns home to be welcomed by his father with a feast.",
-        "revelation": "God's boundless mercy and joy over a repentant sinner.",
-        "reference": "Luke 15:11-32"
-    },
-    {
-        "parable": "The Good Samaritan",
-        "description": "A man is beaten and left for dead; a priest and a Levite pass him by, but a Samaritan stops to show mercy.",
-        "revelation": "The call to love our neighbors without prejudice or limitation.",
-        "reference": "Luke 10:25-37"
-    },
-    {
-        "parable": "The Pearl of Great Price",
-        "description": "A merchant seeks fine pearls and finds one of such immense value that he sells everything he has to buy it.",
-        "revelation": "The supreme value of the Kingdom of Heaven requiring total commitment.",
-        "reference": "Matthew 13:45-46"
-    },
-    {
-        "parable": "The Unforgiving Servant",
-        "description": "A king forgives a servant a massive debt, but that servant then refuses to forgive a fellow servant a small debt.",
-        "revelation": "Our obligation to forgive others just as God has forgiven us.",
-        "reference": "Matthew 18:21-35"
-    },
-    {
-        "parable": "The Lost Sheep",
-        "description": "A shepherd leaves his ninety-nine sheep to go into the wilderness and find the one that is lost.",
-        "revelation": "God's personal pursuit of every individual who wanders away.",
-        "reference": "Luke 15:3-7"
-    },
-    {
-        "parable": "The House on the Rock",
-        "description": "A wise man builds his house on the rock, while a foolish man builds on the sand. The storm comes and only the house on the rock stands.",
-        "revelation": "The importance of not just hearing but doing the Word of God for a solid spiritual foundation.",
-        "reference": "Matthew 7:24-27"
+        "parable": "The Weeds",
+        "description": "An enemy sowed weeds among the wheat while the men slept.",
+        "revelation": "The coexistence of the righteous and wicked until the final judgment."
     },
     {
         "parable": "The Mustard Seed",
-        "description": "The Kingdom of Heaven is like a mustard seed, which is the smallest of all seeds but grows into the largest of garden plants.",
-        "revelation": "The immense, pervasive growth of God's Kingdom from humble, small beginnings.",
-        "reference": "Matthew 13:31-32"
+        "description": "A tiny seed grows into a large tree where birds nest.",
+        "revelation": "The Kingdom of God starts small but grows immensely."
     },
     {
-        "parable": "The Ten Virgins",
-        "description": "Ten virgins took their lamps to meet the bridegroom; five were wise and brought extra oil, and five were foolish and brought none.",
-        "revelation": "The necessity of spiritual preparedness and vigilance for the return of Christ.",
-        "reference": "Matthew 25:1-13"
-    },
-    {
-        "parable": "The Talents",
-        "description": "A master entrusts his servants with talents; two invest and double them, while one hides his talent in the earth.",
-        "revelation": "Our responsibility to faithfully use the gifts and resources God has entrusted to us.",
-        "reference": "Matthew 25:14-30"
+        "parable": "The Leaven",
+        "description": "A woman hid leaven in meal until the whole was leavened.",
+        "revelation": "The pervasive, transforming power of the Kingdom."
     },
     {
         "parable": "The Hidden Treasure",
-        "description": "A man finds a treasure hidden in a field and, out of joy, sells everything he owns to buy that field.",
-        "revelation": "The overwhelming joy and worth of finding the Kingdom of God.",
-        "reference": "Matthew 13:44"
+        "description": "A man found treasure in a field and sold all he had to buy it.",
+        "revelation": "The Kingdom of Heaven is worth sacrificing everything for."
     },
     {
-        "parable": "The Pharisee and the Publican",
-        "description": "A Pharisee prays with pride while a tax collector prays for mercy. Jesus declares the tax collector justified.",
-        "revelation": "The value of humble repentance over self-righteous pride in the eyes of God.",
-        "reference": "Luke 18:9-14"
+        "parable": "The Pearl of Great Price",
+        "description": "A merchant sold all his pearls for one of great value.",
+        "revelation": "The immeasurable value of finding Christ."
+    },
+    {
+        "parable": "The Dragnet",
+        "description": "A net caught fish of every kind, which were then sorted.",
+        "revelation": "The final separation of the righteous and the wicked."
+    },
+    {
+        "parable": "The Lost Sheep",
+        "description": "A shepherd leaves 99 sheep to find the one that is lost.",
+        "revelation": "God's immense joy over one sinner who repents."
+    },
+    {
+        "parable": "The Lost Coin",
+        "description": "A woman sweeps her house to find one lost coin.",
+        "revelation": "The diligence of God in seeking the lost."
+    },
+    {
+        "parable": "The Prodigal Son",
+        "description": "A son squanders his inheritance but opens his father's forgiving arms.",
+        "revelation": "The overwhelming grace and forgiveness of the Father."
+    },
+    {
+        "parable": "The Good Samaritan",
+        "description": "A despised Samaritan helps a wounded man when religious leaders walk by.",
+        "revelation": "Love your neighbor, regardless of their background."
+    },
+    {
+        "parable": "The Unforgiving Servant",
+        "description": "A servant forgiven a huge debt refuses to forgive a small one.",
+        "revelation": "We must forgive others as God has forgiven us."
+    },
+    {
+        "parable": "The Laborers in the Vineyard",
+        "description": "Workers hired at the eleventh hour get the same pay as day-long workers.",
+        "revelation": "God's grace varies not by our merit but by His generosity."
+    },
+    {
+        "parable": "The Two Sons",
+        "description": "One son said he wouldn't go but did; the other said he would but didn't.",
+        "revelation": "Obedience is better than empty promises."
+    },
+    {
+        "parable": "The Wicked Tenants",
+        "description": "Tenants killed the vineyard owner's servants and son.",
+        "revelation": "The rejection of the prophets and the Son of God."
+    },
+    {
+        "parable": "The Wedding Feast",
+        "description": "Guests refused a wedding invitation, so the poor were invited.",
+        "revelation": "Many are called, but few are chosen."
+    },
+    {
+        "parable": "The Ten Virgins",
+        "description": "Five wise virgins brought oil, five foolish ones did not.",
+        "revelation": "Be watchful and ready for the Lord's return."
+    },
+    {
+        "parable": "The Talents",
+        "description": "Servants were given talents; clear profit was expected.",
+        "revelation": "Faithfulness in using the gifts God gives us."
+    },
+    {
+        "parable": "The Sheep and the Goats",
+        "description": "The King separates nations based on how they treated the least of these.",
+        "revelation": "True faith is evidenced by love in action."
+    },
+    {
+        "parable": "The Growing Seed",
+        "description": "Seed grows secretly, man knows not how.",
+        "revelation": "The Kingdom's growth is determined by God's power, not man's."
+    },
+    {
+        "parable": "The Moneylender",
+        "description": "Two debtors were forgiven different amounts; who loves more?",
+        "revelation": "He who is forgiven much, loves much."
     },
     {
         "parable": "The Rich Fool",
-        "description": "A man builds bigger barns to store his wealth but dies that night, leaving everything behind.",
-        "revelation": "The vanity of accumulating earthly riches without being 'rich toward God'.",
-        "reference": "Luke 12:16-21"
+        "description": "A rich man built bigger barns but died that night.",
+        "revelation": "Life does not consist in the abundance of possessions."
     },
     {
-        "parable": "The Workers in the Vineyard",
-        "description": "A landowner hires workers at different times of the day but pays them all the same daily wage.",
-        "revelation": "God's sovereign grace and generosity which is not based on human merit or seniority.",
-        "reference": "Matthew 20:1-16"
+        "parable": "The Watchful Servants",
+        "description": "Servants must watch for their master's return from the wedding.",
+        "revelation": "Always be ready for the Son of Man's coming."
+    },
+    {
+        "parable": "The Barren Fig Tree",
+        "description": "A tree bore no fruit but was given one more year.",
+        "revelation": "God's patience allows time for repentance."
     },
     {
         "parable": "The Great Banquet",
-        "description": "A man prepares a great feast and invites many, but they all make excuses. He then invites the poor and the outcasts.",
-        "revelation": "The invitation to the Kingdom of God is open to all, but those who reject it lose their place.",
-        "reference": "Luke 14:15-24"
+        "description": "Original guests made excuses, so the crippled and blind were invited.",
+        "revelation": "Do not let worldly concerns keep you from God's table."
+    },
+    {
+        "parable": "The Lost Son (Older Brother)",
+        "description": "The older brother resented the celebration for the prodigal.",
+        "revelation": "Self-righteousness can blind us to the Father's heart."
+    },
+    {
+        "parable": "The Shrewd Manager",
+        "description": "A manager reduced debts to make friends before being fired.",
+        "revelation": "Use worldly wealth to gain eternal friends."
+    },
+    {
+        "parable": "The Rich Man and Lazarus",
+        "description": "A rich man ignored Lazarus; their fates were reversed in death.",
+        "revelation": "Decisions in this life determine our eternal destiny."
     },
     {
         "parable": "The Persistent Widow",
-        "description": "A widow repeatedly asks an unjust judge for justice until he finally grants it to be rid of her.",
-        "revelation": "The power of persistent, faithful prayer and God's willingness to answer his children.",
-        "reference": "Luke 18:1-8"
+        "description": "A widow kept asking a judge for justice until he granted it.",
+        "revelation": "Men ought always to pray, and not to faint."
+    },
+    {
+        "parable": "The Pharisee and the Tax Collector",
+        "description": "One boasted of his works, the other begged for mercy.",
+        "revelation": "Everyone who exalts himself will be humbled."
+    },
+    {
+        "parable": "The Mina",
+        "description": "Servants invested money while their master was away to be king.",
+        "revelation": "We must be faithful stewards until Jesus returns."
+    },
+    {
+        "parable": "The Bread of Life",
+        "description": "Jesus describes himself as the bread that came down from heaven.",
+        "revelation": "Christ is the necessary sustenance for eternal life."
+    },
+    {
+        "parable": "The Light of the World",
+        "description": "Jesus is the light; whoever follows walks not in darkness.",
+        "revelation": "Christ illuminates the path to God."
+    },
+    {
+        "parable": "The Good Shepherd",
+        "description": "The shepherd lays down his life for the sheep.",
+        "revelation": "Jesus' sacrificial love and protection for His people."
+    },
+    {
+        "parable": "The True Vine",
+        "description": "Branches must abide in the vine to bear fruit.",
+        "revelation": "Apart from Christ, we can do nothing."
+    },
+    {
+        "parable": "The Door",
+        "description": "Jesus is the door to the sheepfold.",
+        "revelation": "Salvation comes only through Christ."
+    },
+    {
+        "parable": "The Builder (Rock and Sand)",
+        "description": "One built on rock, the other on sand; only one stood the storm.",
+        "revelation": "Hear the Word and do it to be secure."
+    },
+    {
+        "parable": "The New Cloth on Old Garment",
+        "description": "New cloth shrinks and tears the old garment.",
+        "revelation": "The New Covenant cannot simply be patched onto the Old."
+    },
+    {
+        "parable": "New Wine in Old Wineskins",
+        "description": "New wine bursts old skins.",
+        "revelation": "New life in the Spirit requires a new heart."
+    },
+    {
+        "parable": "The Lamp under a Basket",
+        "description": "A lamp is lit to give light, not to be hidden.",
+        "revelation": "Let your light shine before men."
+    },
+    {
+        "parable": "The Spec and the Log",
+        "description": "Judge not the speck in a brother's eye with a log in yours.",
+        "revelation": "Deal with your own sin before judging others."
+    },
+    {
+        "parable": "The Tree and its Fruit",
+        "description": "A good tree cannot bear bad fruit.",
+        "revelation": "You will know them by their fruits."
+    },
+    {
+        "parable": "The Return of the Unclean Spirit",
+        "description": "A spirit returns to a clean but empty house with seven others.",
+        "revelation": "Reformation without transformation is dangerous."
+    },
+    {
+        "parable": "The Sign of Jonah",
+        "description": "As Jonah was in the whale, so the Son of Man in the earth.",
+        "revelation": "The resurrection is the ultimate sign."
+    },
+    {
+        "parable": "The Strong Man",
+        "description": "One can only plunder a house if the strong man is bound.",
+        "revelation": "Jesus binds Satan to rescue his people."
+    },
+    {
+        "parable": "The Children in the Marketplace",
+        "description": "We played the flute, and you did not dance.",
+        "revelation": "This generation is unresponsive to God's approaches."
+    },
+    {
+        "parable": "The Blind Guiding the Blind",
+        "description": "If the blind lead the blind, both fall into a pit.",
+        "revelation": "Be careful who you follow."
+    },
+    {
+        "parable": "The Narrow Gate",
+        "description": "Wide is the gate to destruction, narrow is the way to life.",
+        "revelation": "The path of discipleship is difficult but rewarding."
+    },
+    {
+        "parable": "The Cost of Discipleship (Tower)",
+        "description": "Who builds a tower without counting the cost?",
+        "revelation": "Following Jesus requires total commitment."
+    },
+    {
+        "parable": "The Warring King",
+        "description": "A king considers if he can win the battle before going to war.",
+        "revelation": "Consider the cost of following Christ."
+    },
+    {
+        "parable": "The Master and the Servant",
+        "description": "A servant does not get thanked for doing his duty.",
+        "revelation": "We are unworthy servants doing only our duty."
+    },
+    {
+        "parable": "The Thief in the Night",
+        "description": "If the owner knew when the thief was coming, he would watch.",
+        "revelation": "Be always ready for the Lord's return."
+    },
+    {
+        "parable": "The Faithful Steward",
+        "description": "Who is the faithful manager the master will put in charge?",
+        "revelation": "Blessed is the servant found doing his master's will."
+    },
+    {
+        "parable": "The Fig Tree (Signs of the Times)",
+        "description": "When the branch is tender, summer is near.",
+        "revelation": "Recognize the signs of the Kingdom's approach."
+    },
+    {
+        "parable": "The Doorkeeper",
+        "description": "The doorkeeper must stay awake for the master's return.",
+        "revelation": "Watch and pray."
+    },
+    {
+        "parable": "The Lowest Seat",
+        "description": "Take the lowest seat at the feast to be exalted.",
+        "revelation": "Humility leads to honor."
+    },
+    {
+        "parable": "The Friend at Midnight",
+        "description": "A friend knocks at midnight for bread.",
+        "revelation": "God answers importunate prayer."
+    },
+    {
+        "parable": "The Salt of the Earth",
+        "description": "If salt loses its flavor, it is good for nothing.",
+        "revelation": "Maintain your distinct kingdom influence."
+    },
+    {
+        "parable": "The City on a Hill",
+        "description": "A city set on a hill cannot be hidden.",
+        "revelation": "The church is the visible presence of God's Kingdom."
+    },
+    {
+        "parable": "The Unfruitful Vineyard",
+        "description": "The vineyard produced wild grapes instead of good ones.",
+        "revelation": "God judges those who produce no fruit despite His care."
     }
 ]
