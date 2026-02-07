@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F9FAFB;
+  --foreground: #111827;
+  --nova-red: #FF4B4B;
+  --nova-text: #1A1A1A;
+  --nova-subtext: #6B7280;
+  --nova-offwhite: #F9FAFB;
+}
+
+@theme {
+  --color-nova-red: var(--nova-red);
+  --color-nova-text: var(--nova-text);
+  --color-nova-subtext: var(--nova-subtext);
+  --color-nova-offwhite: var(--nova-offwhite);
+  --font-sans: "Sora", var(--font-sora), sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-gray-200;
+    font-family: var(--font-sora) !important;
+  }
+
+  body {
+    @apply bg-nova-offwhite text-nova-text antialiased;
+    font-family: var(--font-sora) !important;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-xl;
+  }
+
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+}

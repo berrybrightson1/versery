@@ -1,0 +1,239 @@
+[
+    {
+        "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+        "book": "John",
+        "chapter": 3,
+        "verse": 16,
+        "speaker": "Jesus",
+        "missing_words": [
+            "loved",
+            "begotten",
+            "everlasting"
+        ]
+    },
+    {
+        "text": "The Lord is my shepherd; I shall not want.",
+        "book": "Psalms",
+        "chapter": 23,
+        "verse": 1,
+        "speaker": "David",
+        "missing_words": [
+            "shepherd",
+            "want"
+        ]
+    },
+    {
+        "text": "I can do all things through Christ which strengtheneth me.",
+        "book": "Philippians",
+        "chapter": 4,
+        "verse": 13,
+        "speaker": "Paul",
+        "missing_words": [
+            "things",
+            "strengtheneth"
+        ]
+    },
+    {
+        "text": "In the beginning God created the heaven and the earth.",
+        "book": "Genesis",
+        "chapter": 1,
+        "verse": 1,
+        "speaker": "Moses",
+        "missing_words": [
+            "beginning",
+            "created",
+            "earth"
+        ]
+    },
+    {
+        "text": "Trust in the Lord with all thine heart; and lean not unto thine own understanding.",
+        "book": "Proverbs",
+        "chapter": 3,
+        "verse": 5,
+        "speaker": "Solomon",
+        "missing_words": [
+            "heart",
+            "lean",
+            "understanding"
+        ]
+    },
+    {
+        "text": "But they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles.",
+        "book": "Isaiah",
+        "chapter": 40,
+        "verse": 31,
+        "speaker": "Isaiah",
+        "missing_words": [
+            "wait",
+            "strength",
+            "eagles"
+        ]
+    },
+    {
+        "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+        "book": "Romans",
+        "chapter": 8,
+        "verse": 28,
+        "speaker": "Paul",
+        "missing_words": [
+            "together",
+            "love",
+            "purpose"
+        ]
+    },
+    {
+        "text": "Be strong and of a good courage, fear not, nor be afraid of them: for the Lord thy God, he it is that doth go with thee.",
+        "book": "Deuteronomy",
+        "chapter": 31,
+        "verse": 6,
+        "speaker": "Moses",
+        "missing_words": [
+            "courage",
+            "afraid",
+            "thee"
+        ]
+    },
+    {
+        "text": "The Lord is slow to anger, and of great mercy, forgiving iniquity and transgression.",
+        "book": "Numbers",
+        "chapter": 14,
+        "verse": 18,
+        "speaker": "Moses",
+        "missing_words": [
+            "anger",
+            "mercy",
+            "forgiving"
+        ]
+    },
+    {
+        "text": "I am the way, the truth, and the life: no man cometh unto the Father, but by me.",
+        "book": "John",
+        "chapter": 14,
+        "verse": 6,
+        "speaker": "Jesus",
+        "missing_words": [
+            "way",
+            "truth",
+            "Father"
+        ]
+    },
+    {
+        "text": "Greater love hath no man than this, that a man lay down his life for his friends.",
+        "book": "John",
+        "chapter": 15,
+        "verse": 13,
+        "speaker": "Jesus",
+        "missing_words": [
+            "Greater",
+            "life",
+            "friends"
+        ]
+    },
+    {
+        "text": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you.",
+        "book": "Matthew",
+        "chapter": 7,
+        "verse": 7,
+        "speaker": "Jesus",
+        "missing_words": [
+            "given",
+            "find",
+            "opened"
+        ]
+    },
+    {
+        "text": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.",
+        "book": "Romans",
+        "chapter": 6,
+        "verse": 23,
+        "speaker": "Paul",
+        "missing_words": [
+            "wages",
+            "gift",
+            "eternal"
+        ]
+    },
+    {
+        "text": "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ.",
+        "book": "Romans",
+        "chapter": 5,
+        "verse": 1,
+        "speaker": "Paul",
+        "missing_words": [
+            "justified",
+            "faith",
+            "peace"
+        ]
+    },
+    {
+        "text": "Even though I walk through the valley of the shadow of death, I will fear no evil.",
+        "book": "Psalms",
+        "chapter": 23,
+        "verse": 4,
+        "speaker": "David",
+        "missing_words": [
+            "valley",
+            "shadow",
+            "evil"
+        ]
+    },
+    {
+        "text": "Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.",
+        "book": "Jeremiah",
+        "chapter": 33,
+        "verse": 3,
+        "speaker": "God",
+        "missing_words": [
+            "answer",
+            "mighty",
+            "knowest"
+        ]
+    },
+    {
+        "text": "The joy of the Lord is your strength.",
+        "book": "Nehemiah",
+        "chapter": 8,
+        "verse": 10,
+        "speaker": "Nehemiah",
+        "missing_words": [
+            "joy",
+            "strength"
+        ]
+    },
+    {
+        "text": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.",
+        "book": "Psalms",
+        "chapter": 46,
+        "verse": 10,
+        "speaker": "God",
+        "missing_words": [
+            "still",
+            "exalted",
+            "earth"
+        ]
+    },
+    {
+        "text": "Cast thy burden upon the Lord, and he shall sustain thee: he shall never suffer the righteous to be moved.",
+        "book": "Psalms",
+        "chapter": 55,
+        "verse": 22,
+        "speaker": "David",
+        "missing_words": [
+            "burden",
+            "sustain",
+            "moved"
+        ]
+    },
+    {
+        "text": "Thy word is a lamp unto my feet, and a light unto my path.",
+        "book": "Psalms",
+        "chapter": 119,
+        "verse": 105,
+        "speaker": "David",
+        "missing_words": [
+            "lamp",
+            "feet",
+            "light"
+        ]
+    }
+]

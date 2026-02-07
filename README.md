@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# Versery: The Sanctuary App 🕊️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Versery is a premium Next.js Web Application designed for scripture mastery, meditation, and spiritual growth. Built with a "Sanctuary" aesthetic, it combines gamified learning with a calm, atmospheric environment.
 
-## Get started
+## 📜 Progression & Identity
+- **Grace (XP)**: Earned through precision and speed across all game modes.
+- **Identity Titles**: Your standing in the Sanctuary evolves based on your accumulated Grace:
+  - **Seeker**: 0+ Grace
+  - **Disciple**: 500+ Grace
+  - **Sower**: 1500+ Grace
+  - **Steward**: 3500+ Grace
+  - **Master**: 7000+ Grace
+  - **Apostle**: 12000+ Grace
+- **Sealing**: Complete any daily mode to "Seal the Day" and maintain your streak.
 
-1. Install dependencies
+## 🎮 The Sacred Games
+1.  **📍 The Locator**: Identify the exact coordinate of a verse on the maps of scripture.
+2.  **📜 Character Codex**: Discern the voices of prophets, kings, and believers (Sudden Death).
+3.  **📖 Living Word**: Restore the missing breath of the Spirit in broken verses.
+4.  **🕊️ Wisdom’s Echo**: Complete the ancient logic of Proverbs (Sudden Death).
+5.  **🕯️ Parable Mastery**: Unlock the secrets hidden in the Master's stories.
 
-   ```bash
-   npm install
-   ```
+## 🎨 Design Identity (Nova Bible Language)
+- **Typography**: Sora (Primary) for a premium, clean feel.
+- **Palette**: Nova-Red (#FF4B4B) accents on a soft Off-white canvas.
+- **Visuals**: 24px/48px radii, subtle glassmorphism, and high-contrast layouts.
+- **Atmosphere**: Integrated **Ambient Liturgy** for meditative background audio.
 
-2. Start the app
+## 🛠️ Features
+- **Sacred Share**: Generate a high-contrast "Sacred Seal" image of your progress.
+- **Zustand Persistence**: Local-first state management ensuring your journey is saved.
+- **Responsive Mastery**: A purely mobile-first experience that scales elegantly to desktop.
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+*Join the Pilgrimage: [versery.app](https://versery.app)*
