@@ -28,7 +28,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const Sidebar = () => {
     const pathname = usePathname();
-    const { isAudioEnabled, toggleAudio } = useVerseryStore();
+    const { isAudioEnabled, toggleAudio, onboardingCompleted } = useVerseryStore();
     const [isOpen, setIsOpen] = useState(false);
     const [mounted, setMounted] = useState(false);
     const [showVolume, setShowVolume] = useState(false);
@@ -48,6 +48,11 @@ export const Sidebar = () => {
     useEffect(() => {
         setMounted(true);
     }, []);
+
+    // Hide sidebar entirely during onboarding
+    if (mounted && !onboardingCompleted) {
+        return null;
+    }
 
 
     const navItems = [
