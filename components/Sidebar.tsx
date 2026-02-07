@@ -32,6 +32,7 @@ export const Sidebar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [mounted, setMounted] = useState(false);
     const [showVolume, setShowVolume] = useState(false);
+    const [showLogoutConfirm, setShowLogoutConfirm] = useState(false);
     const volumeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
     const handleVolumeEnter = () => {
