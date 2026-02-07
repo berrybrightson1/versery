@@ -74,7 +74,7 @@ export const OnboardingFlow = ({ onComplete }: OnboardingFlowProps) => {
     const currentStep = steps[step];
 
     return (
-        <div className="min-h-screen bg-nova-bg text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
+        <div className="fixed inset-0 z-[100] min-h-screen bg-nova-bg text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
             {/* Progress Bar */}
             <div className="absolute top-10 left-0 w-full px-10 flex gap-2 justify-center">
                 {steps.map((s, i) => (

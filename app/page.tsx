@@ -97,7 +97,8 @@ export default function Dashboard() {
   if (!mounted) return null;
 
   // New Onboarding Logic
-  if (!useVerseryStore.getState().onboardingCompleted) {
+  // New Onboarding Logic
+  if (!onboardingCompleted) {
     return <OnboardingScreen />;
   }
 

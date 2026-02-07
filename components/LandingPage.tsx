@@ -8,7 +8,7 @@ interface LandingPageProps {
 
 export const LandingPage = ({ onStart }: LandingPageProps) => {
     return (
-        <div className="min-h-screen bg-nova-bg text-white relative overflow-hidden flex flex-col justify-center items-center px-6 py-12">
+        <div className="fixed inset-0 z-[100] min-h-screen bg-nova-bg text-white relative overflow-hidden flex flex-col justify-center items-center px-6 py-12">
             {/* Background Ambience */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
                 <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-nova-gold/10 blur-[120px] rounded-full animate-pulse" />
