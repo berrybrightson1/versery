@@ -290,11 +290,7 @@ export const Sidebar = () => {
                             </Link>
 
                             <button
-                                onClick={() => {
-                                    if (confirm("Are you sure you want to log out? This will reset your current session progress.")) {
-                                        useVerseryStore.getState().logout();
-                                    }
-                                }}
+                                onClick={() => setShowLogoutConfirm(true)}
                                 className="w-full flex items-center gap-3 px-4 py-3 bg-nova-offwhite/50 rounded-2xl border border-gray-100/50 hover:bg-red-50 hover:border-red-100/50 transition-all text-left group"
                             >
                                 <div className="w-10 h-10 rounded-xl bg-nova-red/10 flex items-center justify-center group-hover:bg-red-200/20 transition-colors">
@@ -320,6 +316,62 @@ export const Sidebar = () => {
                     className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 md:hidden"
                 />
             )}
+            {/* Logout Confirmation Modal */}
+            <AnimatePresence>
+                {showLogoutConfirm && (
+                    <div className="fixed inset-0 z-[60] flex items-center justify-center px-4">
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+                            onClick={() => setShowLogoutConfirm(false)}
+                        />
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95, y: 10 }}
+                            animate={{ opacity: 1, scale: 1, y: 0 }}
+                            exit={{ opacity: 0, scale: 0.95, y: 10 }}
+                            className="relative bg-[#0a0f1c] border border-white/10 rounded-3xl p-6 w-full max-w-sm shadow-2xl overflow-hidden"
+                        >
+                            {/* Ambient background glow */}
+                            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-32 bg-red-500/20 blur-[60px] rounded-full -mt-16 pointer-events-none" />
+
+                            <div className="relative text-center space-y-4">
+                                <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center mx-auto mb-2 ring-1 ring-red-500/20">
+                                    <div className="w-8 h-8 text-red-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" /><polyline points="16 17 21 12 16 7" /><line x1="21" x2="9" y1="12" y2="12" /></svg>
+                                    </div>
+                                </div>
+
+                                <div className="space-y-2">
+                                    <h3 className="text-xl font-bold text-white">Leave Sanctuary?</h3>
+                                    <p className="text-sm text-white/50 leading-relaxed">
+                                        Your progress for this session will be saved, but you will need to enter your details again to return.
+                                    </p>
+                                </div>
+
+                                <div className="flex gap-3 pt-4">
+                                    <button
+                                        onClick={() => setShowLogoutConfirm(false)}
+                                        className="flex-1 h-12 rounded-xl text-sm font-bold text-white/60 hover:text-white hover:bg-white/5 transition-colors"
+                                    >
+                                        Stay
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            useVerseryStore.getState().logout();
+                                            setShowLogoutConfirm(false);
+                                        }}
+                                        className="flex-1 h-12 rounded-xl text-sm font-bold bg-red-500/10 text-red-400 hover:bg-red-500/20 border border-red-500/20 transition-all shadow-lg shadow-red-900/20"
+                                    >
+                                        Log Out
+                                    </button>
+                                </div>
+                            </div>
+                        </motion.div>
+                    </div>
+                )}
+            </AnimatePresence>
         </>
     );
 };
