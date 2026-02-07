@@ -177,6 +177,8 @@ export const useVerseryStore = create<VerseryState>()(
                 isAudioEnabled: state.isAudioEnabled,
                 audioVolume: state.audioVolume,
                 selectedTrackId: state.selectedTrackId,
+                userProfile: state.userProfile,
+                onboardingCompleted: state.onboardingCompleted,
             }),
             merge: (persistedState, currentState) => ({
                 ...currentState,

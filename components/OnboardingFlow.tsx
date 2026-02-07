@@ -36,8 +36,8 @@ export const OnboardingFlow = ({ onComplete, onBack }: OnboardingFlowProps) => {
 
     const handleFinish = (isGuest = false) => {
         updateUserProfile({
-            name: isGuest ? "Faithful Pilgrim" : name,
-            church: isGuest ? "" : church,
+            name: name.trim() || "Faithful Pilgrim",
+            church: church,
             title: title
         });
         completeOnboarding();
