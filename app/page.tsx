@@ -28,7 +28,7 @@ const OnboardingScreen = () => {
     return <LandingPage onStart={() => setHasStarted(true)} />;
   }
 
-  return <OnboardingFlow onComplete={() => { }} />; // The flow updates the store directly
+  return <OnboardingFlow onComplete={() => { }} onBack={() => setHasStarted(false)} />; // The flow updates the store directly
 };
 
 export default function Dashboard() {

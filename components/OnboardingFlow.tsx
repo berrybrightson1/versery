@@ -11,9 +11,10 @@ import { useState } from "react";
 
 interface OnboardingFlowProps {
     onComplete: () => void;
+    onBack?: () => void;
 }
 
-export const OnboardingFlow = ({ onComplete }: OnboardingFlowProps) => {
+export const OnboardingFlow = ({ onComplete, onBack }: OnboardingFlowProps) => {
     const [step, setStep] = useState(0);
     const [name, setName] = useState("");
     const [church, setChurch] = useState("");
@@ -26,7 +27,11 @@ export const OnboardingFlow = ({ onComplete }: OnboardingFlowProps) => {
     };
 
     const handleBack = () => {
-        setStep(prev => prev - 1);
+        if (step === 0 && onBack) {
+            onBack();
+        } else {
+            setStep(prev => prev - 1);
+        }
     };
 
     const handleFinish = (isGuest = false) => {
@@ -98,8 +103,16 @@ export const OnboardingFlow = ({ onComplete }: OnboardingFlowProps) => {
                     exit={{ opacity: 0, x: -20 }}
                     className="text-center space-y-2"
                 >
-                    <div className="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center mx-auto mb-6 border border-white/10">
-                        <currentStep.icon className="w-8 h-8 text-nova-gold" />
+                    <div className={cn(
+                        "w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 border transition-colors duration-500",
+                        currentStep.id === 'confirm'
+                            ? "bg-emerald-900/80 border-emerald-500/50"
+                            : "bg-white/5 border-white/10"
+                    )}>
+                        <currentStep.icon className={cn(
+                            "w-8 h-8 transition-colors duration-500",
+                            currentStep.id === 'confirm' ? "text-emerald-400" : "text-nova-gold"
+                        )} />
                     </div>
                     <h2 className="text-3xl font-serif font-bold">{currentStep.title}</h2>
                     <p className="text-white/50">{currentStep.desc}</p>
@@ -172,6 +185,14 @@ export const OnboardingFlow = ({ onComplete }: OnboardingFlowProps) => {
                                 <button onClick={() => handleFinish(true)} className="w-full py-3 text-sm text-white/40 hover:text-white transition-colors">
                                     Skip & Enter as Guest
                                 </button>
+
+                                <button
+                                    onClick={handleBack}
+                                    className="flex items-center justify-center gap-2 w-full py-2 text-sm text-white/30 hover:text-white/50 transition-colors"
+                                >
+                                    <ArrowLeft className="w-4 h-4" />
+                                    Back to Setup
+                                </button>
                             </div>
                         </div>
                     )}
@@ -180,11 +201,15 @@ export const OnboardingFlow = ({ onComplete }: OnboardingFlowProps) => {
                 {/* Navigation Buttons */}
                 {step < 3 && (
                     <div className="flex gap-4 pt-4">
-                        {step > 0 && (
-                            <Button onClick={handleBack} variant="ghost" className="h-14 w-14 rounded-full p-0 text-white/50 hover:text-white hover:bg-white/10">
-                                <ArrowLeft className="w-6 h-6" />
-                            </Button>
-                        )}
+                        <Button
+                            onClick={handleBack}
+                            variant="ghost"
+                            className="h-14 w-14 rounded-full p-0 text-white/50 hover:text-white hover:bg-white/10"
+                            disabled={step === 0 && !onBack}
+                        >
+                            <ArrowLeft className="w-6 h-6" />
+                        </Button>
+
                         <Button
                             onClick={handleNext}
                             disabled={!currentStep.isValid}
