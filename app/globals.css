@@ -27,6 +27,17 @@
     @apply bg-nova-offwhite text-nova-text antialiased;
     font-family: var(--font-sora) !important;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
   }
 }
 
