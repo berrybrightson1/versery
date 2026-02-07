@@ -179,20 +179,25 @@ export const OnboardingFlow = ({ onComplete, onBack }: OnboardingFlowProps) => {
                             </div>
 
                             <div className="pt-4 space-y-3">
-                                <Button onClick={() => handleFinish(false)} size="lg" className="w-full h-14 bg-nova-gold text-black hover:bg-nova-gold/90 font-bold text-lg">
+                                <Button onClick={() => handleFinish(false)} size="lg" className="w-full h-14 bg-nova-gold text-black hover:bg-nova-gold/90 font-bold text-lg rounded-full">
                                     Sign Up & Enter (Recommended)
                                 </Button>
-                                <button onClick={() => handleFinish(true)} className="w-full py-3 text-sm text-white/40 hover:text-white transition-colors">
+                                <Button
+                                    onClick={() => handleFinish(true)}
+                                    variant="outline"
+                                    className="w-full h-12 border-white/10 bg-transparent text-white hover:bg-white/10 hover:text-white transition-colors rounded-full"
+                                >
                                     Skip & Enter as Guest
-                                </button>
+                                </Button>
 
-                                <button
+                                <Button
                                     onClick={handleBack}
-                                    className="flex items-center justify-center gap-2 w-full py-2 text-sm text-white/30 hover:text-white/50 transition-colors"
+                                    variant="ghost"
+                                    className="w-full h-12 text-white/40 hover:text-white hover:bg-white/5 transition-colors gap-2 rounded-full"
                                 >
                                     <ArrowLeft className="w-4 h-4" />
                                     Back to Setup
-                                </button>
+                                </Button>
                             </div>
                         </div>
                     )}
