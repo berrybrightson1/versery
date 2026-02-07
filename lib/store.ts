@@ -35,6 +35,7 @@ interface VerseryState {
     updatePilgrimName: (name: string) => void;
     updateUserProfile: (profile: Partial<VerseryState['userProfile']>) => void;
     completeOnboarding: () => void;
+    logout: () => void;
     getPilgrimTitle: () => string;
     toggleAudio: () => void;
     setAudioVolume: (volume: number) => void;
@@ -146,7 +147,13 @@ export const useVerseryStore = create<VerseryState>()(
                 },
                 hasSealedDay: false,
                 pilgrimName: "Faithful Pilgrim",
+                onboardingCompleted: false,
+                userProfile: { name: "", church: "", title: "Seeker" }
             }),
+
+            logout: () => {
+                get().resetProgress();
+            },
 
             updatePilgrimName: (name) => set({ pilgrimName: name }),
 

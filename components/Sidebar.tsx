@@ -288,15 +288,22 @@ export const Sidebar = () => {
                                 )}
                             </Link>
 
-                            <div className="flex items-center gap-3 px-4 py-3 bg-nova-offwhite/50 rounded-2xl border border-gray-100/50">
-                                <div className="w-10 h-10 rounded-xl bg-nova-red/10 flex items-center justify-center">
+                            <button
+                                onClick={() => {
+                                    if (confirm("Are you sure you want to log out? This will reset your current session progress.")) {
+                                        useVerseryStore.getState().logout();
+                                    }
+                                }}
+                                className="w-full flex items-center gap-3 px-4 py-3 bg-nova-offwhite/50 rounded-2xl border border-gray-100/50 hover:bg-red-50 hover:border-red-100/50 transition-all text-left group"
+                            >
+                                <div className="w-10 h-10 rounded-xl bg-nova-red/10 flex items-center justify-center group-hover:bg-red-200/20 transition-colors">
                                     <User className="w-5 h-5 text-nova-red" />
                                 </div>
                                 <div className="flex-1 overflow-hidden">
-                                    <p className="text-sm font-bold text-nova-text truncate">{userProfile.name || "Pilgrim"}</p>
-                                    <p className="text-[10px] text-nova-subtext uppercase tracking-wider">{userProfile.title || "Faithful Devotee"}</p>
+                                    <p className="text-sm font-bold text-nova-text truncate group-hover:text-red-600 transition-colors">{userProfile.name || "Pilgrim"}</p>
+                                    <p className="text-[10px] text-nova-subtext uppercase tracking-wider group-hover:text-red-400 transition-colors">{userProfile.title || "Faithful Devotee"}</p>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                     </motion.aside>
                 )}
