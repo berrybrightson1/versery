@@ -28,7 +28,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const Sidebar = () => {
     const pathname = usePathname();
-    const { isAudioEnabled, toggleAudio, onboardingCompleted } = useVerseryStore();
+    const { isAudioEnabled, toggleAudio, onboardingCompleted, userProfile } = useVerseryStore();
     const [isOpen, setIsOpen] = useState(false);
     const [mounted, setMounted] = useState(false);
     const [showVolume, setShowVolume] = useState(false);
@@ -293,8 +293,8 @@ export const Sidebar = () => {
                                     <User className="w-5 h-5 text-nova-red" />
                                 </div>
                                 <div className="flex-1 overflow-hidden">
-                                    <p className="text-sm font-bold text-nova-text truncate">User Profile</p>
-                                    <p className="text-[10px] text-nova-subtext uppercase tracking-wider">Faithful Devotee</p>
+                                    <p className="text-sm font-bold text-nova-text truncate">{userProfile.name || "Pilgrim"}</p>
+                                    <p className="text-[10px] text-nova-subtext uppercase tracking-wider">{userProfile.title || "Faithful Devotee"}</p>
                                 </div>
                             </div>
                         </div>
